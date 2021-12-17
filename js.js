@@ -69,9 +69,7 @@ function randomPick (cantidad, min, max){
         do{
            num = Math.trunc( Math.random() * ((max+1)-min) + 1);//REALIZAR EL TRUNACADO PROMERO PARA QUE COINDAN, SI NO ES PRACTICAMENTE  IMPOSIBLE
            for(j=0;j<=i; j++){
-               if(num === array[j]){
-                   ok = false;} 
-           }
+               if(num === array[j]){ok = false;} }
            if(ok){
                array[i] = num;
                i++;     
