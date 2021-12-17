@@ -1,0 +1,18 @@
+
+
+
+
+.cTotal{
+    width: 30%;
+}
+.cText{
+   width: 100%;
+    height: 200px;
+}
+.cContenedor{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
