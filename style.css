@@ -3,7 +3,8 @@
 
 
 .cTotal{
-    width: 30%;
+    width: 50%;
+    max-width: 400px;
 }
 .cText{
    width: 100%;

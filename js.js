@@ -40,7 +40,6 @@ function encriptar (text,origen,destino){
         for(j=0;j<plainAlphabet.length;j++){
             if(text[i]==origen[j]){
                 textd[i]=destino[j];
-                console.log(textd[i]);
             }
         }
     }
